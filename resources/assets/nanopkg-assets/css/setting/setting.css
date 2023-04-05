@@ -1,0 +1,8 @@
+.hidden {
+    display: none;
+}
+
+.ace_editor {
+    position: relative;
+    min-height: 100px;
+}

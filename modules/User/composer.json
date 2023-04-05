@@ -1,0 +1,23 @@
+{
+    "name": "bdtask/user",
+    "description": "",
+    "authors": [
+        {
+            "name": "IQBAL HASAN",
+            "email": "iqbalhasan.dev@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\User\\": ""
+        }
+    }
+}

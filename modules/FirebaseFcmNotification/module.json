@@ -1,0 +1,11 @@
+{
+    "name": "FirebaseFcmNotification",
+    "alias": "firebasefcmnotification",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\FirebaseFcmNotification\\Providers\\FirebaseFcmNotificationServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,74 @@
+.user-header-menu .dropdown-item {
+    position: relative !important;
+    padding: 0 10px !important;
+    height: 38px !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 13px;
+    color: #494c57;
+    font-weight: 600;
+    margin: 0 !important;
+    border-bottom: 1px solid #c1b2b2;
+}
+
+
+.user-header-menu .dropdown-item:hover:before {
+    display: none;
+}
+
+.form-check-input:checked {
+    background-color: #16994a;
+    border-color: #198754;
+}
+
+.form-control {
+    padding: 10px 20px;
+}
+
+.typed-cursor {
+    color: rgb(10, 211, 100);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+.template-card i, .template-card svg {
+    font-size: 30px !important;
+    color: #16994a;
+    padding-bottom: 5px;
+}
+
+.note-editing-area {
+    background-color: #ffff !important;
+}
+
+.favorite {
+    font-size: 22px;
+    color: #949494 !important;
+}
+
+.favored {
+    font-size: 22px;
+    color: rgb(219, 182, 17);
+}
+
+.f3xl {
+    font-size: 3em;
+    line-height: .03125em;
+    vertical-align: -0.1875em;
+}
+
+.f4xl {
+    font-size: 4em;
+    line-height: .03125em;
+    vertical-align: -0.1875em;
+}
