@@ -10,7 +10,7 @@
     <x-admin.styles />
 </head>
 
-<body {{ $attributes->merge(['class'=>'']) }}>
+<body {{ $attributes->merge(['class'=>'authentication-bg authentication-bg-pattern']) }}>
     <!-- Preloader -->
     <x-admin.preloader />
     <div class="container-fluid ">
