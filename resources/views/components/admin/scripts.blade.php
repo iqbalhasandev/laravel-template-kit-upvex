@@ -1,6 +1,8 @@
 <!--Global script(used by all pages)-->
-<script src="{{admin_asset('vendor/jQuery/jquery.min.js') }}"></script>
-<script src="{{admin_asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+
+<script src="{{admin_asset('js/vendor.min.js') }}"></script>
+
+
 @stack('lib-scripts')
 <script src="{{ nanopkg_asset('vendor/highlight/highlight.min.js') }}"></script>
 <script src="{{ vite('resources/js/app.js') }}"></script>
@@ -19,6 +21,6 @@
 <script src="{{ nanopkg_asset('js/typed-init.min.js')}}"></script>
 <script src="{{ nanopkg_asset('js/main.js') }}"></script>
 
-<!--Page Scripts(used by all page)-->
-<script src="{{admin_asset('js/sidebar.min.js') }}"></script>
+<!-- App js -->
+<script src="{{admin_asset('js/app.min.js') }}"></script>
 @stack('js')

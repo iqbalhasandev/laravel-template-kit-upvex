@@ -1,8 +1,6 @@
-<link href="{{ admin_asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-<link href="{{ admin_asset('vendor/metisMenu/metisMenu.min.css') }}" rel="stylesheet">
-<link href="{{ admin_asset('vendor/datatables/dataTables.bootstrap4.min.css') }}" rel="stylesheet">
-<link href="{{ admin_asset('vendor/typicons/src/typicons.min.css') }}" rel="stylesheet">
-<link href="{{ admin_asset('vendor/themify-icons/themify-icons.min.css') }}" rel="stylesheet">
+<!-- App css -->
+<link href="{{ admin_asset('css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
+<link href="{{ admin_asset('css/icons.min.css') }}" rel="stylesheet" type="text/css" />
 @stack('lib-styles')
 
 <link rel="stylesheet" href="{{ nanopkg_asset('vendor/highlight/highlight.min.css') }}">
@@ -14,9 +12,7 @@
 <link href="{{ nanopkg_asset('css/custom.min.css') }}" rel="stylesheet">
 
 <!--Start Your Custom Style Now-->
-<link href="{{ admin_asset('css/style-new.min.css') }}" rel="stylesheet">
-<link href="{{ admin_asset('css/custom.min.css') }}" rel="stylesheet">
-<link href="{{ admin_asset('css/extra.min.css') }}" rel="stylesheet">
+<link href="{{ admin_asset('css/app.min.css') }}" rel="stylesheet" type="text/css" />
 
 <style>
     .swal2-confirm.btn.btn-primary {
@@ -34,23 +30,6 @@
         font-size: .875em;
         color: #dc3545;
         border-color: #dc3545;
-    }
-
-    body.sidebar-collapse .sidebar .sidebar-header img.sidebar-brand_icon {
-        display: block !important;
-    }
-
-    body.sidebar-collapse.sidebar-collapse_hover .sidebar .sidebar-header img.sidebar-brand_icon {
-        display: none !important;
-    }
-
-    .user-menu-img {
-        border-radius: 50%;
-        width: 42px;
-    }
-
-    .user-menu a.nav-link.dropdown-toggle:hover {
-        background: transparent !important;
     }
 </style>
 @stack('css')
