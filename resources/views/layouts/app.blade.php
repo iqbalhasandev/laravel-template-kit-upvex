@@ -57,17 +57,16 @@
                     </div>
                 </div>
             </div>
-            {{--
-            <x-admin.footer /> --}}
+            <x-admin.footer />
         </div>
     </div>
     <!--end  vue page -->
-    {{--
-    <x-admin.right-bar /> --}}
-    {{-- <div class="rightbar-overlay"></div>-> --}}
 
-    {{-- @stack('modal') --}}
-    {{-- <x-modal id="delete-modal" :title="__('Delete Modal')">
+    <x-admin.right-bar />
+    <div class="rightbar-overlay"></div>
+
+    @stack('modal')
+    <x-modal id="delete-modal" :title="__('Delete Modal')">
         <form action="javascript:void(0);" class="needs-validation" id="delete-modal-form">
             <div class="modal-body">
                 <p>{{ __("Are you sure you want to delete this item? You won't be able to revert this item back!") }}
@@ -78,7 +77,7 @@
                 <button class="btn btn-danger" type="submit" id="delete_submit">{{ __('Delete') }}</button>
             </div>
         </form>
-    </x-modal> --}}
+    </x-modal>
 
     <!-- start scripts -->
     <x-admin.scripts />

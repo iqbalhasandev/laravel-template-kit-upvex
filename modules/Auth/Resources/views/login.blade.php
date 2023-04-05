@@ -1,4 +1,4 @@
-<x-guest-layout>
+<x-guest-layout class="authentication-bg authentication-bg-pattern">
     <x-auth::card>
         <div class="">
             <div class="text-center mb-3">
